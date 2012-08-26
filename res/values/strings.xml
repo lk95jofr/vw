@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="app_name">Volkswagen Service Sverige</string>
+    <string name="no_workshop_found">Inga verkstäder tillgängliga</string>
+    <string name="create_route">Skapar rutt till</string>
+    <string name="no_rute">Ingen vägbeskrivning tillgänglig</string>
+    <string name="retrieving_data">Hämtar data ...</string>
+    <string name="find_workshops">Hitta närmaste verkstad</string>
+    <string name="no_network">Inget nätverk tillgängligt</string>
+	<string name="determining_your_position">Fastställer din position</string>
+	<string name="determining_your_position_error">Kan inte fastställa din position</string>
+    <string name="my_location">Du är här</string>
+    <string name="back_to_list">Tillbaka till listan</string>
+    <string name="search_by_city">Sök på stad</string>
+    <string name="distance">Avstånd</string>
+    <string name="distance_unit">km</string>
+    <string name="show_route">Vägbeskrivning</string>
+    <string name="search">Sök</string>
+    <string name="search_country">Sök hela landet</string>
+    <string name="search_close">Sök närmaste</string>
+    <string name="choose_place">Välj plats</string>
+    <string name="vw_web">Volkswagen Mobila Web</string>
+    <string name="symbols">Symboler</string>
+    <string name="navigation">Navigation</string>
+    <string name="pers">Personbilar</string>
+    <string name="transport">Transportbilar</string>
+</resources>

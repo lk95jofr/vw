@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/RelativeLayout02" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent">
+
+<!-- LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+    android:paddingTop="60dip"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" -->
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+    	android:paddingTop="80dip"
+		android:layout_centerInParent="true">
+	    
+	    <Button android:id="@+id/search_close_button"
+	    	android:gravity="center_vertical|center_horizontal"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="10dip"
+		    android:layout_marginRight="10dip"
+		    android:text="@string/search_close"/>
+		    
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+		    
+			<EditText
+				android:id="@+id/EditTextCity"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+			    android:layout_weight="0.25"
+			    android:layout_marginTop="5dip"
+			    android:layout_marginLeft="14dip"
+				android:text=""
+				android:singleLine="true"
+				android:hint="@string/search_by_city"/>
+			
+		    <Button android:id="@+id/search_country_button"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_weight="1"
+			    android:layout_marginTop="3dip"
+			    android:layout_marginRight="10dip"
+			    android:text="@string/search"/>
+		</LinearLayout>
+			
+		    <!-- Button android:id="@+id/search_country_button"
+		    	android:gravity="center_vertical|center_horizontal"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_marginTop="5dip"
+			    android:layout_marginLeft="10dip"
+			    android:layout_marginRight="10dip"
+			    android:text="@string/search_country"/ -->
+			
+		<ListView
+		    android:id="@+id/android:list"
+		    android:layout_marginTop="10dip"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="10dip"
+		    android:layout_marginRight="10dip"/>
+		    
+		<TextView
+		    android:id="@+id/android:empty"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:text="@string/no_workshop_found"
+		    android:textColor="#ffffff"
+		    android:textStyle="bold"
+		    android:gravity="center"/>
+	</LinearLayout>
+<!--  /LinearLayout -->
+</RelativeLayout>

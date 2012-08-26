@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/first_root"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+    
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		
+	    <Button android:id="@+id/pers"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:layout_marginTop="250dp"
+	    android:layout_marginLeft="10dp"
+	    android:text="@string/pers" />
+	    
+	    <Button android:id="@+id/transport"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:layout_marginTop="250dp"
+	    android:layout_marginRight="10dp"
+	    android:text="@string/transport" />
+	</LinearLayout>
+</LinearLayout>

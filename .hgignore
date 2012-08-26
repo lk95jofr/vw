@@ -1,0 +1,14 @@
+syntax: glob
+
+*.class
+*.DS_Store
+.classpath
+.project
+.settings
+bin
+build
+dist
+gen
+nblibraries.properties
+nbproject
+

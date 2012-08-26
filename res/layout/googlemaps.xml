@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent">
+    
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+
+		<ImageButton android:id="@+id/imagebutton1"
+  			android:src="@android:drawable/ic_menu_directions"
+  			android:layout_width="80px"
+  			android:layout_height="80px"
+  			android:clickable="true"/>
+  			
+  		<ImageButton android:id="@+id/imagebutton2"
+  			android:src="@android:drawable/ic_menu_mapmode"
+  			android:layout_width="80px"
+  			android:layout_height="80px"
+  			android:clickable="true"/>
+  			
+	</LinearLayout>
+
+	<!-- Android Market Mode -->
+    <!-- com.google.android.maps.MapView 
+        android:id="@+id/mapview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+	   	android:layout_marginTop="15dp"
+        android:layout_weight="1"
+        android:enabled="true"
+        android:clickable="true"
+        android:apiKey="0Ng3SdQANgiA4i6hqhN5gArBECA5ZfNeuFzdQwA"/ -->
+          
+	<!-- Debug Mode -->
+    <com.google.android.maps.MapView 
+        android:id="@+id/mapview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+	   	android:layout_marginTop="15dp"
+        android:layout_weight="1"
+        android:enabled="true"
+        android:clickable="true"
+        android:apiKey="0AVSYje3C6insz5cktqD_WQ6HEu75nC-A41M2NQ"/>
+ 
+</LinearLayout>
